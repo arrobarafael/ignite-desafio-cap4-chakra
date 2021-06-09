@@ -12,7 +12,24 @@ export default function Home() {
 
       <Travel />
 
-      <Divider />
+      <Box
+        bgColor="dark.headingAndText"
+        w={90}
+        height={0.5}
+        mx="auto"
+        mt="20"
+      ></Box>
+
+      <Stack
+        fontSize="36"
+        align="center"
+        fontWeight="500"
+        lineHeight="1.3"
+        mt="16"
+      >
+        <Text>Vamos nessa?</Text>
+        <Text>Então escolha o seu continente</Text>
+      </Stack>
     </Flex>
   );
 }
