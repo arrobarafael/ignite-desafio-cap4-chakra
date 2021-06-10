@@ -1,7 +1,10 @@
 import { Box, Flex, Image, Stack, Text, Divider } from '@chakra-ui/react';
+
+import styles from './styles.module.scss';
 import { Header } from '../components/Header';
 import { Travel } from '../components/Travel';
 import { TravelItem } from '../components/Travel/TravelItem';
+import { Slider } from '../components/Slider/Index';
 
 export default function Home() {
   return (
@@ -30,6 +33,8 @@ export default function Home() {
         <Text>Vamos nessa?</Text>
         <Text>Então escolha o seu continente</Text>
       </Stack>
+
+      <Slider />
     </Flex>
   );
 }
